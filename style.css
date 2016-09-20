@@ -1,0 +1,230 @@
+body {
+  font-family: 'Fira Sans',X-LocaleSpecific,sans-serif;
+}
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.banner {
+  background-image: url("background1.png");
+  background-size: 100% 100%;
+  text-align: center;
+  font-family: 'Architects Daughter', X-LocaleSpecific, sans-serif;
+  font-size: 3.5em;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 7%;
+}
+
+.banner h1 {
+  font-size: 1.2em;
+}
+
+.banner2 {
+  background-image: url("background2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  overflow: auto;
+}
+
+#navbar {
+  background: #D92E2D;
+}
+
+.navtop li {
+  border: none;
+  float: left;
+  list-style-type: none;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  margin-left: 20px;
+  border-right: 1px solid #FFF;
+  line-height: 2em;
+}
+
+#DL-FF {
+   border: none;
+   background-color: #48A74C;
+   padding: 15px 20px 10px 20px;
+   margin: 0;
+}
+
+#DL-FF:hover {
+  background-color: #4CAF50;
+}
+
+.navtop li a {
+  color: white;
+}
+
+.mozilla-brand {
+  margin-top: 6px;
+}
+
+.green-back {
+  background: #169794;
+  color: white;
+}
+
+.center-text {
+  text-align: center;
+}
+
+ul {
+  margin-left: 20%;
+}
+
+.white-back {
+  color: #616165;
+}
+
+.grn-bck-link {
+  text-decoration: underline;
+  color: white;
+  line-height: 3em;
+}
+
+.grn-bck-link:hover {
+  color: white;
+}
+
+.innovations-list1 {
+  background-image: url(gaming2.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 40px;
+  list-style-type: none;
+}
+
+.innovations-list2 {
+  background-image: url(vr2.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 40px;
+  list-style-type: none;
+}
+
+.innovations-list3 {
+  background-image: url(servo2.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 40px;
+  list-style-type: none;
+}
+
+.innovations-list4 {
+  background-image: url(rust2.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 40px;
+  list-style-type: none;
+}
+
+.wht-bck-link {
+  text-decoration: underline;
+  color: #00A7E0;
+  line-height: 3em;
+}
+
+.wht-bck-link:hover {
+  color: #616165;
+}
+
+.impact-list1 {
+  background-image: url(encryption.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 40px;
+  list-style-type: none;
+}
+
+.impact-list2 {
+  background-image: url(teach_the_web.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 40px;
+  list-style-type: none;
+}
+
+.impact-list3 {
+  background-image: url(toolkit.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 40px;
+  list-style-type: none;
+}
+
+.banner3 {
+  background: #F5F5F5;
+  font-family: 'Fira Sans',X-LocaleSpecific,sans-serif;
+  font-weight: bolder;
+  padding-left: 18%;
+  padding-right: 18%;
+}
+
+.3-col {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.newsletter {
+  background: #D92E2D;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter2 {
+  margin: auto;
+  width: 500px;
+}
+
+#newsletter-img {
+  margin: 20px 0 20px 0;
+}
+
+.newsletter-center {
+  padding-left: 280px;
+  padding-right: 280px;
+}
+
+@media (max-width: 1400px) {
+  .banner2 {
+    background-image: url("background2 copy 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner2 {
+    background-image: url("background2 copy 3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner {
+    background-image: url("background1 copy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner2 {
+    background-image: url("background2 copy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner {
+    background-image: url("background1 copy 2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+}
